@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Minecraft PlayStation Vita PSNID Changer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script src="FileSaver.js"></script>
+</head>
+<body>
+    <button id="theme-button" class="styled-button" onclick="toggleBlackMode()">Light Grey</button>
+    <div class="container">
+        <select class="language-dropdown" onchange="changeLanguage()">
+            <option value="English">English</option>
+            <option value="Español">Español</option>
+            <option value="日本語">日本語</option>
+        </select>
+        <br>
+        <label class="label">Nuevo ID</label>
+        <span style="margin-left: 432px;"></span>
+        <label class="label">Nombre</label>
+        <br>
+        <div class="input-container">
+            <input type="text" class="input" id="textBox3">
+            <input type="text" class="input" id="textBox1">
+        </div>
+        <label class="title">Código</label>
+        <br>
+        <textarea class="output" id="textBox2"></textarea>
+        <br>
+        <button class="button" onclick="button1_Click()">Generar Código</button>
+        <button class="button" onclick="button2_Click()">Copiar</button>
+        <button class="button" onclick="button3_Click()">Guardar</button>
+        <button class="button" onclick="button4_Click()">Eliminar todo</button>
+        <br>
+        <label id="etiqueta"></label>
+    </div>
+    
+    <select id="savefile" class="savefile">
+        <option value="PCSE00491">PCSE00491</option>
+        <option value="PCSB00560">PCSB00560</option>
+        <option value="PCSG00302">PCSG00302</option>
+    </select>
+</body>
+</html>
