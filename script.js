@@ -115,25 +115,25 @@ function changeLanguage() {
     var button4 = document.querySelectorAll('.container > button')[3];
 
     if (selected_language === "English") {
-        label3.innerText = "New ID";
-        label1.innerText = "Name";
+        label3.innerText = "Name";
+        label1.innerText = "New ID";
         label2.innerText = "Code";
         button1.innerText = "Generate Code";
         button2.innerText = "Copy";
         button3.innerText = "Save";
         button4.innerText = "Clear All";
     } else if (selected_language === "Español") {
-        label3.innerText = "Nuevo ID";
-        label1.innerText = "Nombre";
+        label3.innerText = "Nombre";
+        label1.innerText = "Nuevo ID";
         label2.innerText = "Código";
         button1.innerText = "Generar Código";
         button2.innerText = "Copiar";
         button3.innerText = "Guardar";
         button4.innerText = "Eliminar todo";
     } else if (selected_language === "日本語") {
-        label3.innerText = "新しいID";
+        label3.innerText = "コード";
         label1.innerText = "名前";
-        label2.innerText = "コード";
+        label2.innerText = "新しいID";
         button1.innerText = "コードを生成";
         button2.innerText = "コピー";
         button3.innerText = "保存";
